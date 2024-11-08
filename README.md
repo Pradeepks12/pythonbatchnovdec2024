@@ -20,7 +20,7 @@ To see the latest local changes:
 
     git status
 
-To exactly see the changes made on a single file:
+To check/verify the modified content in existing file:
 
     git diff
 
@@ -31,3 +31,31 @@ To stage the changes:
     To commit the changes:
 
         git commit -m "commit message"
+
+    To puch the changes,
+
+      git push origin <sourcebranch>
+
+        class01 -> main
+        ex: git push origin class01
+
+
+
+### Daily 
+
+To check the branch is clean
+
+    git status
+
+To checkout to the main branch
+
+    git checkout main
+
+To get the latest changes
+
+    git pull origin main
+
+To create new branch
+
+    git checkout -b <new branch name>
+    
