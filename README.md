@@ -28,16 +28,16 @@ To stage the changes:
 
     git add <filename>
 
-    To commit the changes:
+To commit the changes:
 
-        git commit -m "commit message"
+    git commit -m "commit message"
 
-    To puch the changes,
+To push the changes,
 
-      git push origin <sourcebranch>
+    git push origin <sourcebranch>
 
-        class01 -> main
-        ex: git push origin class01
+    class01 -> main
+    ex: git push origin class01
 
 
 
